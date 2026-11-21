@@ -1,0 +1,963 @@
+{
+  "version": "1.0.0",
+  "chapter": {
+    "te": "అకరణీయ సంఖ్యలు",
+    "en": "Rational Numbers"
+  },
+  "lessons": [
+    {
+      "id": "meaning",
+      "title": {
+        "te": "అకరణీయ సంఖ్యలను తెలుసుకుందాం",
+        "en": "Meet rational numbers"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "భాగాన్ని సంఖ్యగా రాయడం",
+            "en": "A part becomes a number"
+          },
+          "body": {
+            "te": "ఒక రొట్టెను 4 సమాన భాగాలుగా చేసి, 3 భాగాలు తీసుకుంటే అది 3/4. పై సంఖ్య లవం; కింది సంఖ్య హారం.",
+            "en": "Cut a roti into 4 equal parts. Taking 3 parts gives 3/4. The top number is the numerator; the bottom is the denominator."
+          },
+          "example": "3 ÷ 4 = 3/4"
+        },
+        {
+          "title": {
+            "te": "అకరణీయ సంఖ్య అంటే?",
+            "en": "What is a rational number?"
+          },
+          "body": {
+            "te": "p, q పూర్ణసంఖ్యలు, q సున్నా కానప్పుడు p/q రూపంలో రాయగల సంఖ్య అకరణీయ సంఖ్య. ఋణ సంఖ్యలు, సున్నా కూడా ఇందులో ఉంటాయి.",
+            "en": "A rational number can be written as p/q, where p and q are integers and q is not zero. Negative numbers and zero are included."
+          },
+          "example": "-3/5, 0/1, 7/1"
+        },
+        {
+          "title": {
+            "te": "హారం సున్నా ఎందుకు కాదు?",
+            "en": "Why not a zero denominator?"
+          },
+          "body": {
+            "te": "సున్నాతో భాగించడం నిర్వచించబడలేదు. 5/0 ఒక అకరణీయ సంఖ్య కాదు. కానీ 0/5 = 0 చెల్లుతుంది.",
+            "en": "Division by zero is undefined. 5/0 is not a rational number, but 0/5 = 0 is valid."
+          },
+          "example": "0/5 = 0; 5/0 ✕"
+        }
+      ],
+      "summary": {
+        "te": "హారం సున్నా కాకూడదు. ప్రతి పూర్ణసంఖ్యను n/1 గా రాయవచ్చు.",
+        "en": "The denominator cannot be zero. Every integer n can be written as n/1."
+      }
+    },
+    {
+      "id": "standard",
+      "title": {
+        "te": "సమాన భిన్నాలు, ప్రామాణిక రూపం",
+        "en": "Equivalent fractions & standard form"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "విలువ మారదు",
+            "en": "The value stays the same"
+          },
+          "body": {
+            "te": "లవాన్ని, హారాన్ని ఒకే సున్నా కాని సంఖ్యతో గుణించినా లేదా భాగించినా భిన్నం విలువ మారదు.",
+            "en": "Multiplying or dividing numerator and denominator by the same nonzero number keeps the value unchanged."
+          },
+          "example": "2/3 = 4/6 = 6/9"
+        },
+        {
+          "title": {
+            "te": "సరళీకరించండి",
+            "en": "Simplify"
+          },
+          "body": {
+            "te": "లవం, హారాన్ని వాటి గరిష్ఠ సామాన్య భాజకంతో భాగించండి. హారం ధన సంఖ్యగా ఉండేలా రాయండి.",
+            "en": "Divide numerator and denominator by their greatest common divisor. Keep the denominator positive."
+          },
+          "example": "-12/18 = (-12 ÷ 6)/(18 ÷ 6) = -2/3"
+        },
+        {
+          "title": {
+            "te": "ఋణ చిహ్నం",
+            "en": "The negative sign"
+          },
+          "body": {
+            "te": "హారంలో ఋణ చిహ్నం ఉంటే దాన్ని లవానికి మార్చండి. రెండు ఋణ చిహ్నాలు ధన చిహ్నంగా మారతాయి.",
+            "en": "Move a negative denominator sign to the numerator. Two negative signs give a positive fraction."
+          },
+          "example": "3/(-7) = -3/7; (-3)/(-7) = 3/7"
+        }
+      ],
+      "summary": {
+        "te": "ప్రామాణిక రూపంలో హారం ధన సంఖ్య; లవం, హారానికి 1 తప్ప సామాన్య భాజకం ఉండదు.",
+        "en": "Standard form has a positive denominator and coprime numerator and denominator."
+      }
+    },
+    {
+      "id": "numberline",
+      "title": {
+        "te": "సంఖ్యారేఖ, సంఖ్యల పోలిక",
+        "en": "Number line & comparison"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "సమాన దూరాలు",
+            "en": "Equal intervals"
+          },
+          "body": {
+            "te": "0, 1 మధ్య దూరాన్ని 4 సమాన భాగాలుగా విభజించండి. 0 నుంచి కుడికి మూడవ గుర్తు 3/4.",
+            "en": "Divide the distance from 0 to 1 into 4 equal intervals. The third mark to the right of 0 is 3/4."
+          },
+          "example": "0 — 1/4 — 2/4 — 3/4 — 1"
+        },
+        {
+          "title": {
+            "te": "ఋణ సంఖ్యలు",
+            "en": "Negative numbers"
+          },
+          "body": {
+            "te": "ఋణ సంఖ్యలు సున్నాకు ఎడమవైపు ఉంటాయి. కుడివైపు ఉన్న సంఖ్య పెద్దది. అందువల్ల -1/4 అనేది -3/4 కంటే పెద్దది.",
+            "en": "Negative numbers lie left of zero. A number farther right is greater, so -1/4 is greater than -3/4."
+          },
+          "example": "-3/4 < -1/4 < 0"
+        },
+        {
+          "title": {
+            "te": "ఒకే హారంతో పోల్చండి",
+            "en": "Compare with equal denominators"
+          },
+          "body": {
+            "te": "మొదట హారాలను సమానం చేయండి. అప్పుడు లవాలను పోల్చండి. హారాలు ధన సంఖ్యలుగా ఉండాలి.",
+            "en": "First make the positive denominators equal. Then compare numerators."
+          },
+          "example": "2/3 = 8/12; 3/4 = 9/12; 2/3 < 3/4"
+        }
+      ],
+      "summary": {
+        "te": "సంఖ్యారేఖపై కుడివైపు ఉన్న సంఖ్య పెద్దది.",
+        "en": "On a number line, the number farther right is greater."
+      }
+    },
+    {
+      "id": "addition",
+      "title": {
+        "te": "కూడిక, తీసివేత",
+        "en": "Addition & subtraction"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "ఒకే హారం",
+            "en": "Same denominator"
+          },
+          "body": {
+            "te": "హారాలు సమానంగా ఉంటే లవాలను కలపండి. హారాన్ని అలాగే ఉంచండి.",
+            "en": "When denominators are equal, add the numerators and keep the denominator."
+          },
+          "example": "2/7 + 3/7 = (2 + 3)/7 = 5/7"
+        },
+        {
+          "title": {
+            "te": "వేర్వేరు హారాలు",
+            "en": "Different denominators"
+          },
+          "body": {
+            "te": "సామాన్య హారం కోసం హారాల క.సా.గు. తీసుకోండి. సమాన భిన్నాలుగా మార్చి లవాలను కలపండి.",
+            "en": "Use the least common multiple as the common denominator. Rewrite equivalent fractions, then add the numerators."
+          },
+          "example": "1/3 + 1/4 = 4/12 + 3/12 = 7/12"
+        },
+        {
+          "title": {
+            "te": "తీసివేత",
+            "en": "Subtraction"
+          },
+          "body": {
+            "te": "తీసివేతను వ్యతిరేక సంఖ్య కూడికగా రాయవచ్చు. సమాన హారాలకు మార్చడం మర్చిపోవద్దు.",
+            "en": "Subtracting is adding the opposite. Remember to use equal denominators."
+          },
+          "example": "1/2 - 3/4 = 2/4 - 3/4 = -1/4"
+        }
+      ],
+      "summary": {
+        "te": "లవాలను మాత్రమే కలపాలి; హారాలను కలపకూడదు.",
+        "en": "Add numerators after finding a common denominator; never add denominators."
+      }
+    },
+    {
+      "id": "multiply",
+      "title": {
+        "te": "గుణకారం, భాగహారం",
+        "en": "Multiplication & division"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "భాగంలో భాగం",
+            "en": "A part of a part"
+          },
+          "body": {
+            "te": "లవాలను గుణించండి. హారాలను గుణించండి. చివరగా సరళీకరించండి.",
+            "en": "Multiply the numerators and multiply the denominators, then simplify."
+          },
+          "example": "2/3 × 3/5 = 6/15 = 2/5"
+        },
+        {
+          "title": {
+            "te": "విలోమం",
+            "en": "Reciprocal"
+          },
+          "body": {
+            "te": "సున్నా కాని భిన్నం విలోమం కోసం లవం, హారం స్థానాలను మార్చండి. వాటి లబ్ధం 1. సున్నాకు విలోమం లేదు.",
+            "en": "Swap numerator and denominator to get the reciprocal of a nonzero fraction. Their product is 1. Zero has no reciprocal."
+          },
+          "example": "3/7 × 7/3 = 1"
+        },
+        {
+          "title": {
+            "te": "భాగహారం",
+            "en": "Division"
+          },
+          "body": {
+            "te": "ఒక భిన్నంతో భాగించాలంటే దాని విలోమంతో గుణించండి. సున్నాతో భాగించకూడదు.",
+            "en": "To divide by a fraction, multiply by its reciprocal. Never divide by zero."
+          },
+          "example": "2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6"
+        }
+      ],
+      "summary": {
+        "te": "భాగహారంలో రెండవ భిన్నాన్ని మాత్రమే తిరగవేయండి.",
+        "en": "In division, invert only the second fraction."
+      }
+    },
+    {
+      "id": "properties",
+      "title": {
+        "te": "సంఖ్యల ధర్మాలు",
+        "en": "Properties of rational numbers"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "సంవృత ధర్మం",
+            "en": "Closure"
+          },
+          "body": {
+            "te": "రెండు అకరణీయ సంఖ్యల కూడిక, తీసివేత, గుణకార ఫలితాలు అకరణీయ సంఖ్యలే. భాగహారంలో భాజకం సున్నా కాకూడదు.",
+            "en": "Rational numbers are closed under addition, subtraction and multiplication. Division is allowed only with a nonzero divisor."
+          },
+          "example": "1/2 + 1/3 = 5/6"
+        },
+        {
+          "title": {
+            "te": "క్రమం, సమూహం",
+            "en": "Order and grouping"
+          },
+          "body": {
+            "te": "కూడిక, గుణకారంలో క్రమం లేదా సమూహం మార్చినా ఫలితం మారదు. తీసివేత, భాగహారానికి ఇది వర్తించదు.",
+            "en": "Addition and multiplication are commutative and associative. Subtraction and division are not."
+          },
+          "example": "1/2 + 1/3 = 1/3 + 1/2; (1/2 × 2/3) × 3/4 = 1/2 × (2/3 × 3/4)"
+        },
+        {
+          "title": {
+            "te": "విభాజక ధర్మం",
+            "en": "Distributive property"
+          },
+          "body": {
+            "te": "ఒక సంఖ్యను మొత్తంతో గుణించడం, ప్రతి పదంతో గుణించి కలపడంతో సమానం. తీసివేతకూ ఈ ధర్మం వర్తిస్తుంది.",
+            "en": "Multiplication distributes over addition and subtraction."
+          },
+          "example": "2/3 × (1/4 + 3/4) = 2/3 × 1/4 + 2/3 × 3/4 = 2/3"
+        }
+      ],
+      "summary": {
+        "te": "కూడిక, గుణకారంలో క్రమం మార్చవచ్చు; తీసివేత, భాగహారంలో కాదు.",
+        "en": "Order can change in addition and multiplication, but not subtraction and division."
+      }
+    },
+    {
+      "id": "identity",
+      "title": {
+        "te": "తత్సమాలు, విలోమాలు",
+        "en": "Identities & inverses"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "కూడిక తత్సమం",
+            "en": "Additive identity"
+          },
+          "body": {
+            "te": "ఏ సంఖ్యకు సున్నా కలిపినా అదే సంఖ్య వస్తుంది. అందుకే కూడిక తత్సమం 0.",
+            "en": "Adding zero leaves any number unchanged. Zero is the additive identity."
+          },
+          "example": "-2/5 + 0 = -2/5"
+        },
+        {
+          "title": {
+            "te": "కూడిక విలోమం",
+            "en": "Additive inverse"
+          },
+          "body": {
+            "te": "ఒక సంఖ్యకు దాని వ్యతిరేక సంఖ్యను కలిపితే సున్నా వస్తుంది.",
+            "en": "A number and its opposite add to zero."
+          },
+          "example": "-2/5 + 2/5 = 0"
+        },
+        {
+          "title": {
+            "te": "గుణకార తత్సమం, విలోమం",
+            "en": "Multiplicative identity and inverse"
+          },
+          "body": {
+            "te": "1 తో గుణిస్తే సంఖ్య మారదు. సున్నా కాని సంఖ్యకు దాని విలోమంతో లబ్ధం 1 వస్తుంది.",
+            "en": "Multiplying by 1 leaves a number unchanged. A nonzero number times its reciprocal equals 1."
+          },
+          "example": "4/9 × 1 = 4/9; 4/9 × 9/4 = 1"
+        }
+      ],
+      "summary": {
+        "te": "కూడిక తత్సమం 0; గుణకార తత్సమం 1.",
+        "en": "The additive identity is 0; the multiplicative identity is 1."
+      }
+    },
+    {
+      "id": "between",
+      "title": {
+        "te": "రెండు సంఖ్యల మధ్య సంఖ్యలు",
+        "en": "Numbers between rational numbers"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "title": {
+            "te": "మధ్య సంఖ్య",
+            "en": "Find a middle number"
+          },
+          "body": {
+            "te": "రెండు వేర్వేరు అకరణీయ సంఖ్యలను కలిపి 2 తో భాగిస్తే వాటి మధ్య సంఖ్య వస్తుంది.",
+            "en": "Add two distinct rational numbers and divide by 2 to find a number between them."
+          },
+          "example": "(1/3 + 2/3) ÷ 2 = 1/2"
+        },
+        {
+          "title": {
+            "te": "మరిన్ని సంఖ్యలు",
+            "en": "Find more numbers"
+          },
+          "body": {
+            "te": "హారాన్ని పెంచే సమాన భిన్నాలు రాయండి. మధ్యలోని లవాలను ఎంచుకోండి.",
+            "en": "Write equivalent fractions with a larger common denominator. Choose numerators between them."
+          },
+          "example": "1/3 = 4/12; 2/3 = 8/12; 5/12, 6/12, 7/12"
+        },
+        {
+          "title": {
+            "te": "అంతం లేదు",
+            "en": "There is no end"
+          },
+          "body": {
+            "te": "మధ్య సంఖ్యను మళ్లీ మళ్లీ కనుగొనవచ్చు. అందుకే ఏ రెండు వేర్వేరు అకరణీయ సంఖ్యల మధ్యనైనా అనంతమైన అకరణీయ సంఖ్యలు ఉంటాయి.",
+            "en": "You can repeatedly find another midpoint. So there are infinitely many rational numbers between any two distinct rational numbers."
+          },
+          "example": "1/3 < 5/12 < 1/2 < 7/12 < 2/3"
+        }
+      ],
+      "summary": {
+        "te": "మధ్య సంఖ్య కోసం మొత్తం యొక్క సగం తీసుకోండి.",
+        "en": "To find a number between two numbers, take half their sum."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "meaning-1",
+      "lessonId": "meaning",
+      "level": 1,
+      "prompt": {
+        "te": "0/8 విలువ ఎంత?",
+        "en": "What is 0/8?"
+      },
+      "answer": "0",
+      "hint": {
+        "te": "సున్నాను సమాన భాగాలుగా పంచండి.",
+        "en": "Share zero into equal groups."
+      },
+      "explanation": {
+        "te": "0 ను సున్నా కాని సంఖ్యతో భాగిస్తే 0.",
+        "en": "Zero divided by a nonzero number is zero."
+      }
+    },
+    {
+      "id": "meaning-2",
+      "lessonId": "meaning",
+      "level": 2,
+      "prompt": {
+        "te": "-6 ను హారం 1 గల భిన్నంగా రాయండి.",
+        "en": "Write -6 as a fraction with denominator 1."
+      },
+      "answer": "-6",
+      "hint": {
+        "te": "పూర్ణసంఖ్యను 1 తో భాగించండి.",
+        "en": "Divide the integer by 1."
+      },
+      "explanation": {
+        "te": "-6 = -6/1.",
+        "en": "-6 = -6/1."
+      }
+    },
+    {
+      "id": "meaning-3",
+      "lessonId": "meaning",
+      "level": 3,
+      "prompt": {
+        "te": "3 రొట్టెలను 4 మందికి సమానంగా పంచితే ఒక్కొక్కరికి ఎంత?",
+        "en": "Share 3 rotis equally among 4 people. How much each?"
+      },
+      "answer": "3/4",
+      "hint": {
+        "te": "మొత్తాన్ని వ్యక్తుల సంఖ్యతో భాగించండి.",
+        "en": "Divide the total by the number of people."
+      },
+      "explanation": {
+        "te": "ఒక్కొక్కరికి 3 ÷ 4 = 3/4 రొట్టె.",
+        "en": "Each receives 3 ÷ 4 = 3/4 of a roti."
+      }
+    },
+    {
+      "id": "standard-1",
+      "lessonId": "standard",
+      "level": 1,
+      "prompt": {
+        "te": "6/9 ను సరళీకరించండి.",
+        "en": "Simplify 6/9."
+      },
+      "answer": "2/3",
+      "hint": {
+        "te": "లవం, హారాన్ని 3 తో భాగించండి.",
+        "en": "Divide numerator and denominator by 3."
+      },
+      "explanation": {
+        "te": "6/9 = 2/3",
+        "en": "6/9 = 2/3"
+      }
+    },
+    {
+      "id": "standard-2",
+      "lessonId": "standard",
+      "level": 2,
+      "prompt": {
+        "te": "9/12 ను సరళీకరించండి.",
+        "en": "Simplify 9/12."
+      },
+      "answer": "3/4",
+      "hint": {
+        "te": "లవం, హారాన్ని 3 తో భాగించండి.",
+        "en": "Divide numerator and denominator by 3."
+      },
+      "explanation": {
+        "te": "9/12 = 3/4",
+        "en": "9/12 = 3/4"
+      }
+    },
+    {
+      "id": "standard-3",
+      "lessonId": "standard",
+      "level": 3,
+      "prompt": {
+        "te": "12/15 ను సరళీకరించండి.",
+        "en": "Simplify 12/15."
+      },
+      "answer": "4/5",
+      "hint": {
+        "te": "లవం, హారాన్ని 3 తో భాగించండి.",
+        "en": "Divide numerator and denominator by 3."
+      },
+      "explanation": {
+        "te": "12/15 = 4/5",
+        "en": "12/15 = 4/5"
+      }
+    },
+    {
+      "id": "standard-4",
+      "lessonId": "standard",
+      "level": 1,
+      "prompt": {
+        "te": "15/18 ను సరళీకరించండి.",
+        "en": "Simplify 15/18."
+      },
+      "answer": "5/6",
+      "hint": {
+        "te": "లవం, హారాన్ని 3 తో భాగించండి.",
+        "en": "Divide numerator and denominator by 3."
+      },
+      "explanation": {
+        "te": "15/18 = 5/6",
+        "en": "15/18 = 5/6"
+      }
+    },
+    {
+      "id": "standard-5",
+      "lessonId": "standard",
+      "level": 2,
+      "prompt": {
+        "te": "18/21 ను సరళీకరించండి.",
+        "en": "Simplify 18/21."
+      },
+      "answer": "6/7",
+      "hint": {
+        "te": "లవం, హారాన్ని 3 తో భాగించండి.",
+        "en": "Divide numerator and denominator by 3."
+      },
+      "explanation": {
+        "te": "18/21 = 6/7",
+        "en": "18/21 = 6/7"
+      }
+    },
+    {
+      "id": "standard-6",
+      "lessonId": "standard",
+      "level": 3,
+      "prompt": {
+        "te": "21/24 ను సరళీకరించండి.",
+        "en": "Simplify 21/24."
+      },
+      "answer": "7/8",
+      "hint": {
+        "te": "లవం, హారాన్ని 3 తో భాగించండి.",
+        "en": "Divide numerator and denominator by 3."
+      },
+      "explanation": {
+        "te": "21/24 = 7/8",
+        "en": "21/24 = 7/8"
+      }
+    },
+    {
+      "id": "numberline-1",
+      "lessonId": "numberline",
+      "level": 1,
+      "prompt": {
+        "te": "-1/4, 1/4 లో పెద్ద సంఖ్య ఏది?",
+        "en": "Which is greater: -1/4 or 1/4?"
+      },
+      "answer": "1/4",
+      "hint": {
+        "te": "కుడివైపు సంఖ్య పెద్దది.",
+        "en": "Farther right means greater."
+      },
+      "explanation": {
+        "te": "1/4 సున్నాకు కుడివైపు ఉంది.",
+        "en": "1/4 lies to the right of zero."
+      }
+    },
+    {
+      "id": "numberline-2",
+      "lessonId": "numberline",
+      "level": 2,
+      "prompt": {
+        "te": "2/3, 3/4 లో చిన్న సంఖ్య ఏది?",
+        "en": "Which is smaller: 2/3 or 3/4?"
+      },
+      "answer": "2/3",
+      "hint": {
+        "te": "హారం 12 గా మార్చండి.",
+        "en": "Use denominator 12."
+      },
+      "explanation": {
+        "te": "8/12 < 9/12 కాబట్టి 2/3 చిన్నది.",
+        "en": "8/12 < 9/12, so 2/3 is smaller."
+      }
+    },
+    {
+      "id": "numberline-3",
+      "lessonId": "numberline",
+      "level": 3,
+      "prompt": {
+        "te": "-3/5, -2/3 లో పెద్ద సంఖ్య ఏది?",
+        "en": "Which is greater: -3/5 or -2/3?"
+      },
+      "answer": "-3/5",
+      "hint": {
+        "te": "హారం 15 గా మార్చండి.",
+        "en": "Use denominator 15."
+      },
+      "explanation": {
+        "te": "-9/15 > -10/15.",
+        "en": "-9/15 > -10/15."
+      }
+    },
+    {
+      "id": "addition-1",
+      "lessonId": "addition",
+      "level": 3,
+      "prompt": {
+        "te": "1/2 + 1/3 = ?",
+        "en": "1/2 + 1/3 = ?"
+      },
+      "answer": "5/6",
+      "hint": {
+        "te": "మొదట హారాలను సమానం చేయండి.",
+        "en": "Make the denominators equal."
+      },
+      "explanation": {
+        "te": "(3 + 2)/6 = 5/6",
+        "en": "(3 + 2)/6 = 5/6"
+      }
+    },
+    {
+      "id": "addition-2",
+      "lessonId": "addition",
+      "level": 1,
+      "prompt": {
+        "te": "1/3 + 1/4 = ?",
+        "en": "1/3 + 1/4 = ?"
+      },
+      "answer": "7/12",
+      "hint": {
+        "te": "మొదట హారాలను సమానం చేయండి.",
+        "en": "Make the denominators equal."
+      },
+      "explanation": {
+        "te": "(4 + 3)/12 = 7/12",
+        "en": "(4 + 3)/12 = 7/12"
+      }
+    },
+    {
+      "id": "addition-3",
+      "lessonId": "addition",
+      "level": 2,
+      "prompt": {
+        "te": "1/4 + 1/5 = ?",
+        "en": "1/4 + 1/5 = ?"
+      },
+      "answer": "9/20",
+      "hint": {
+        "te": "మొదట హారాలను సమానం చేయండి.",
+        "en": "Make the denominators equal."
+      },
+      "explanation": {
+        "te": "(5 + 4)/20 = 9/20",
+        "en": "(5 + 4)/20 = 9/20"
+      }
+    },
+    {
+      "id": "addition-4",
+      "lessonId": "addition",
+      "level": 3,
+      "prompt": {
+        "te": "1/5 + 1/6 = ?",
+        "en": "1/5 + 1/6 = ?"
+      },
+      "answer": "11/30",
+      "hint": {
+        "te": "మొదట హారాలను సమానం చేయండి.",
+        "en": "Make the denominators equal."
+      },
+      "explanation": {
+        "te": "(6 + 5)/30 = 11/30",
+        "en": "(6 + 5)/30 = 11/30"
+      }
+    },
+    {
+      "id": "addition-5",
+      "lessonId": "addition",
+      "level": 1,
+      "prompt": {
+        "te": "1/6 + 1/7 = ?",
+        "en": "1/6 + 1/7 = ?"
+      },
+      "answer": "13/42",
+      "hint": {
+        "te": "మొదట హారాలను సమానం చేయండి.",
+        "en": "Make the denominators equal."
+      },
+      "explanation": {
+        "te": "(7 + 6)/42 = 13/42",
+        "en": "(7 + 6)/42 = 13/42"
+      }
+    },
+    {
+      "id": "addition-6",
+      "lessonId": "addition",
+      "level": 2,
+      "prompt": {
+        "te": "1/7 + 1/8 = ?",
+        "en": "1/7 + 1/8 = ?"
+      },
+      "answer": "15/56",
+      "hint": {
+        "te": "మొదట హారాలను సమానం చేయండి.",
+        "en": "Make the denominators equal."
+      },
+      "explanation": {
+        "te": "(8 + 7)/56 = 15/56",
+        "en": "(8 + 7)/56 = 15/56"
+      }
+    },
+    {
+      "id": "addition-7",
+      "lessonId": "addition",
+      "level": 1,
+      "prompt": {
+        "te": "1/5 - 3/5 = ?",
+        "en": "1/5 - 3/5 = ?"
+      },
+      "answer": "-2/5",
+      "hint": {
+        "te": "లవాలను తీసివేయండి.",
+        "en": "Subtract numerators."
+      },
+      "explanation": {
+        "te": "(1 - 3)/5 = -2/5.",
+        "en": "(1 - 3)/5 = -2/5."
+      }
+    },
+    {
+      "id": "addition-8",
+      "lessonId": "addition",
+      "level": 3,
+      "prompt": {
+        "te": "-1/2 + 3/4 = ?",
+        "en": "-1/2 + 3/4 = ?"
+      },
+      "answer": "1/4",
+      "hint": {
+        "te": "-1/2 = -2/4.",
+        "en": "-1/2 = -2/4."
+      },
+      "explanation": {
+        "te": "-2/4 + 3/4 = 1/4.",
+        "en": "-2/4 + 3/4 = 1/4."
+      }
+    },
+    {
+      "id": "multiply-1",
+      "lessonId": "multiply",
+      "level": 1,
+      "prompt": {
+        "te": "2/3 × 3/5 = ?",
+        "en": "2/3 × 3/5 = ?"
+      },
+      "answer": "2/5",
+      "hint": {
+        "te": "లవాలను, హారాలను గుణించండి.",
+        "en": "Multiply tops and bottoms."
+      },
+      "explanation": {
+        "te": "6/15 = 2/5.",
+        "en": "6/15 = 2/5."
+      }
+    },
+    {
+      "id": "multiply-2",
+      "lessonId": "multiply",
+      "level": 2,
+      "prompt": {
+        "te": "2/3 ÷ 4/5 = ?",
+        "en": "2/3 ÷ 4/5 = ?"
+      },
+      "answer": "5/6",
+      "hint": {
+        "te": "రెండవ భిన్నం విలోమంతో గుణించండి.",
+        "en": "Multiply by the reciprocal of the second fraction."
+      },
+      "explanation": {
+        "te": "2/3 × 5/4 = 10/12 = 5/6.",
+        "en": "2/3 × 5/4 = 10/12 = 5/6."
+      }
+    },
+    {
+      "id": "multiply-3",
+      "lessonId": "multiply",
+      "level": 3,
+      "prompt": {
+        "te": "-3/7 ÷ 9/14 = ?",
+        "en": "-3/7 ÷ 9/14 = ?"
+      },
+      "answer": "-2/3",
+      "hint": {
+        "te": "9/14 స్థానంలో 14/9 తో గుణించండి.",
+        "en": "Multiply by 14/9."
+      },
+      "explanation": {
+        "te": "-42/63 = -2/3.",
+        "en": "-42/63 = -2/3."
+      }
+    },
+    {
+      "id": "properties-1",
+      "lessonId": "properties",
+      "level": 1,
+      "prompt": {
+        "te": "1/4 + 3/4 = ?",
+        "en": "1/4 + 3/4 = ?"
+      },
+      "answer": "1",
+      "hint": {
+        "te": "హారం మారదు.",
+        "en": "Keep the denominator."
+      },
+      "explanation": {
+        "te": "4/4 = 1.",
+        "en": "4/4 = 1."
+      }
+    },
+    {
+      "id": "properties-2",
+      "lessonId": "properties",
+      "level": 2,
+      "prompt": {
+        "te": "2/3 × (1/4 + 3/4) = ?",
+        "en": "2/3 × (1/4 + 3/4) = ?"
+      },
+      "answer": "2/3",
+      "hint": {
+        "te": "బ్రాకెట్ లోపలి మొత్తం 1.",
+        "en": "The bracket adds to 1."
+      },
+      "explanation": {
+        "te": "2/3 × 1 = 2/3.",
+        "en": "2/3 × 1 = 2/3."
+      }
+    },
+    {
+      "id": "properties-3",
+      "lessonId": "properties",
+      "level": 3,
+      "prompt": {
+        "te": "1/2 × 1/3 + 1/2 × 2/3 = ?",
+        "en": "1/2 × 1/3 + 1/2 × 2/3 = ?"
+      },
+      "answer": "1/2",
+      "hint": {
+        "te": "1/2 ను సామాన్యంగా తీయండి.",
+        "en": "Factor out 1/2."
+      },
+      "explanation": {
+        "te": "1/2 × (1/3 + 2/3) = 1/2.",
+        "en": "1/2 × (1/3 + 2/3) = 1/2."
+      }
+    },
+    {
+      "id": "identity-1",
+      "lessonId": "identity",
+      "level": 1,
+      "prompt": {
+        "te": "కూడిక తత్సమం ఏది?",
+        "en": "What is the additive identity?"
+      },
+      "answer": "0",
+      "hint": {
+        "te": "కలిపినా సంఖ్య మారకూడదు.",
+        "en": "Adding it must leave a number unchanged."
+      },
+      "explanation": {
+        "te": "a + 0 = a.",
+        "en": "a + 0 = a."
+      }
+    },
+    {
+      "id": "identity-2",
+      "lessonId": "identity",
+      "level": 2,
+      "prompt": {
+        "te": "-4/7 యొక్క కూడిక విలోమం ఏది?",
+        "en": "What is the additive inverse of -4/7?"
+      },
+      "answer": "4/7",
+      "hint": {
+        "te": "చిహ్నాన్ని మార్చండి.",
+        "en": "Change the sign."
+      },
+      "explanation": {
+        "te": "-4/7 + 4/7 = 0.",
+        "en": "-4/7 + 4/7 = 0."
+      }
+    },
+    {
+      "id": "identity-3",
+      "lessonId": "identity",
+      "level": 3,
+      "prompt": {
+        "te": "-2/9 యొక్క గుణకార విలోమం ఏది?",
+        "en": "What is the multiplicative inverse of -2/9?"
+      },
+      "answer": "-9/2",
+      "hint": {
+        "te": "లవం, హారం మార్చండి.",
+        "en": "Swap numerator and denominator."
+      },
+      "explanation": {
+        "te": "-2/9 × -9/2 = 1.",
+        "en": "-2/9 × -9/2 = 1."
+      }
+    },
+    {
+      "id": "between-1",
+      "lessonId": "between",
+      "level": 1,
+      "prompt": {
+        "te": "1/4, 3/4 యొక్క మధ్య సంఖ్య ఏది?",
+        "en": "Find the midpoint of 1/4 and 3/4."
+      },
+      "answer": "1/2",
+      "hint": {
+        "te": "మొత్తాన్ని 2 తో భాగించండి.",
+        "en": "Divide the sum by 2."
+      },
+      "explanation": {
+        "te": "(1/4 + 3/4)/2 = 1/2.",
+        "en": "(1/4 + 3/4)/2 = 1/2."
+      }
+    },
+    {
+      "id": "between-2",
+      "lessonId": "between",
+      "level": 2,
+      "prompt": {
+        "te": "1/3, 1/2 యొక్క మధ్య సంఖ్య ఏది?",
+        "en": "Find the midpoint of 1/3 and 1/2."
+      },
+      "answer": "5/12",
+      "hint": {
+        "te": "మొత్తం 5/6.",
+        "en": "Their sum is 5/6."
+      },
+      "explanation": {
+        "te": "5/6 ÷ 2 = 5/12.",
+        "en": "5/6 ÷ 2 = 5/12."
+      }
+    },
+    {
+      "id": "between-3",
+      "lessonId": "between",
+      "level": 3,
+      "prompt": {
+        "te": "-2/3, 1/6 యొక్క మధ్య సంఖ్య ఏది?",
+        "en": "Find the midpoint of -2/3 and 1/6."
+      },
+      "answer": "-1/4",
+      "hint": {
+        "te": "-2/3 = -4/6.",
+        "en": "-2/3 = -4/6."
+      },
+      "explanation": {
+        "te": "(-4/6 + 1/6)/2 = -1/4.",
+        "en": "(-4/6 + 1/6)/2 = -1/4."
+      }
+    }
+  ]
+}
