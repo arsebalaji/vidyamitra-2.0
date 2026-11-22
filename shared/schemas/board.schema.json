@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "stateId": {
+      "title": "Stateid",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "enabled": {
+      "default": true,
+      "title": "Enabled",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "stateId",
+    "name"
+  ],
+  "title": "Board",
+  "type": "object"
+}

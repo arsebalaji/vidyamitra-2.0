@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function GrammarQuest(){return <PlannedFeature title="Grammar quest"/>}

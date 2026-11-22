@@ -1,5 +1,17 @@
 # Validation record — 21 November 2026
 
+## Structured-project update
+
+- All 384 entries in the supplied file/directory tree are present; the archive is checked against the same list.
+- Frontend: **13 tests passed** across four test files.
+- Backend: **11 tests passed** after splitting API routes and services.
+- Alembic: migration applied successfully to a separate test SQLite database; current revision `0001_content (head)`.
+- Structured curriculum passed the content validator; JSON schemas and OpenAPI were regenerated.
+- Refreshed fraction playground inspected in the live browser; selecting `2/6` for `1/3` produced correct feedback and updated the score.
+- Frontend sources were formatted for readability. The premium theme and game redesign are included in this version.
+
+The original MVP checks below are historical; current counts above supersede their totals.
+
 - Production TypeScript/Vite build: passed. Workbox generated a service worker precaching nine files (approximately 531 KiB).
 - Frontend unit tests: **7 passed**.
 - FastAPI tests: **9 passed**, including the answer key for all 32 questions, consent enforcement, upload validation, CORS and rate limits.

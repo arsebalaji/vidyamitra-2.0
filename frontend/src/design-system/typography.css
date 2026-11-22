@@ -1,0 +1,10 @@
+:root {
+  --font-body: "Nirmala UI", "Segoe UI", sans-serif;
+  --font-size-body: 1rem;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}

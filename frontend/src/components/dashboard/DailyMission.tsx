@@ -1,0 +1,1 @@
+import ProgressBar from '../ui/ProgressBar';export default function DailyMission({title,completed,total}:{title:string;completed:number;total:number}){return <section className="card mission-card"><h2>{title}</h2><ProgressBar value={total>0?Math.min(100,completed/total*100):0}/><p>{completed} / {total}</p></section>}

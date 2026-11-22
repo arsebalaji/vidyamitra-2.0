@@ -1,0 +1,1 @@
+export default function LessonStepCard({title,body}:{title:string;body:string}){return <article className="card mission-card"><h2>{title}</h2><p>{body}</p></article>}

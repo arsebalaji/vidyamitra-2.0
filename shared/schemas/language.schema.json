@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "code": {
+      "title": "Code",
+      "type": "string"
+    },
+    "enabled": {
+      "default": false,
+      "title": "Enabled",
+      "type": "boolean"
+    },
+    "direction": {
+      "default": "ltr",
+      "title": "Direction",
+      "type": "string"
+    },
+    "status": {
+      "default": "review_required",
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "code"
+  ],
+  "title": "Language",
+  "type": "object"
+}

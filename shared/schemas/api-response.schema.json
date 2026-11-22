@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TutorResponse",
+  "type": "object",
+  "required": [
+    "answer",
+    "source",
+    "lesson_id"
+  ],
+  "properties": {
+    "answer": {
+      "type": "string"
+    },
+    "source": {
+      "enum": [
+        "offline",
+        "gemini"
+      ]
+    },
+    "lesson_id": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';import {useWords} from '../../app/providers';export default function AchievementPreview(){const t=useWords();return <Link className="achievement-link" to="/achievements">★ {t('achievements')}</Link>}

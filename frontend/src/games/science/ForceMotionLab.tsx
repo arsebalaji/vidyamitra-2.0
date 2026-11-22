@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function ForceMotionLab(){return <PlannedFeature title="Force and motion lab"/>}

@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "nameTe": {
+      "title": "Namete",
+      "type": "string"
+    },
+    "enabled": {
+      "default": true,
+      "title": "Enabled",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "nameTe"
+  ],
+  "title": "State",
+  "type": "object"
+}

@@ -1,0 +1,1 @@
+import {useApp,useWords} from '../../app/providers';import {speak} from '../../services/voiceService';export default function LearningAudio({text}:{text:string}){const {lang,notify}=useApp(),t=useWords();return <button className="soft-button" onClick={()=>speak(text,lang,notify)}>{t('listen')}</button>}

@@ -1,0 +1,211 @@
+[
+  {
+    "code": "te",
+    "nativeName": "తెలుగు",
+    "name": "Telugu",
+    "glyph": "అ",
+    "direction": "ltr",
+    "enabled": true,
+    "selectable": true,
+    "status": "mvp",
+    "contentLanguage": "te"
+  },
+  {
+    "code": "en",
+    "nativeName": "English",
+    "name": "English",
+    "glyph": "A",
+    "direction": "ltr",
+    "enabled": true,
+    "selectable": true,
+    "status": "mvp",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "hi",
+    "nativeName": "हिन्दी",
+    "name": "Hindi",
+    "glyph": "अ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "hi"
+  },
+  {
+    "code": "ta",
+    "nativeName": "தமிழ்",
+    "name": "Tamil",
+    "glyph": "அ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "kn",
+    "nativeName": "ಕನ್ನಡ",
+    "name": "Kannada",
+    "glyph": "ಅ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "ml",
+    "nativeName": "മലയാളം",
+    "name": "Malayalam",
+    "glyph": "അ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "mr",
+    "nativeName": "मराठी",
+    "name": "Marathi",
+    "glyph": "म",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "bn",
+    "nativeName": "বাংলা",
+    "name": "Bengali",
+    "glyph": "অ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "gu",
+    "nativeName": "ગુજરાતી",
+    "name": "Gujarati",
+    "glyph": "અ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "pa",
+    "nativeName": "ਪੰਜਾਬੀ",
+    "name": "Punjabi",
+    "glyph": "ਅ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "or",
+    "nativeName": "ଓଡ଼ିଆ",
+    "name": "Odia",
+    "glyph": "ଅ",
+    "direction": "ltr",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "ur",
+    "nativeName": "اردو",
+    "name": "Urdu",
+    "glyph": "ا",
+    "direction": "rtl",
+    "enabled": false,
+    "selectable": true,
+    "status": "translation_preview",
+    "contentLanguage": "en"
+  },
+  {
+    "code": "as",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "brx",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "doi",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "ks",
+    "enabled": false,
+    "direction": "rtl",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "kok",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "mai",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "mni",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "ne",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "sa",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "sat",
+    "enabled": false,
+    "direction": "ltr",
+    "status": "review_required",
+    "selectable": false
+  },
+  {
+    "code": "sd",
+    "enabled": false,
+    "direction": "rtl",
+    "status": "review_required",
+    "selectable": false
+  }
+]

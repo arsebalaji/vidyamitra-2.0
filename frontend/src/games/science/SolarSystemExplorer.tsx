@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function SolarSystemExplorer(){return <PlannedFeature title="Solar system explorer"/>}

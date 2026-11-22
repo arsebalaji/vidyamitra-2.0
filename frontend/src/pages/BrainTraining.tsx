@@ -1,0 +1,1 @@
+import MemoryMatch from '../games/brain-training/MemoryMatch';export default function BrainTraining(){return <><p className="language-notice">English activity preview · Practice here is not included in lesson mastery.</p><MemoryMatch/></>}

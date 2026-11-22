@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "country": {
+      "default": "India",
+      "title": "Country",
+      "type": "string"
+    },
+    "state": {
+      "default": "Telangana",
+      "title": "State",
+      "type": "string"
+    },
+    "board": {
+      "default": "Telangana State Board",
+      "title": "Board",
+      "type": "string"
+    },
+    "grade": {
+      "default": 8,
+      "title": "Grade",
+      "type": "integer"
+    },
+    "subject": {
+      "default": "Mathematics",
+      "title": "Subject",
+      "type": "string"
+    }
+  },
+  "title": "Curriculum",
+  "type": "object"
+}

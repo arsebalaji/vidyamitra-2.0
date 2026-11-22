@@ -1,0 +1,26 @@
+{
+  "id": "ts-8-math-rational-te",
+  "version": "1.1.0",
+  "chapter": {
+    "te": "అకరణీయ సంఖ్యలు",
+    "en": "Rational Numbers",
+    "hi": "परिमेय संख्याएँ"
+  },
+  "state": "telangana",
+  "board": "ts-scert",
+  "class": 8,
+  "subject": "mathematics",
+  "language": "te",
+  "fallbackLanguage": "en",
+  "lessonCount": 8,
+  "questionCount": 32,
+  "reviewStatus": "mvp_educator_review_pending",
+  "availableContentLanguages": [
+    "te",
+    "en",
+    "hi"
+  ],
+  "previewContentLanguages": [
+    "hi"
+  ]
+}

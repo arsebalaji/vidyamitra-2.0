@@ -1,0 +1,17 @@
+import i18n from 'i18next';import {initReactI18next} from 'react-i18next';import {resolveLanguage} from './languageRegistry';
+import te from './locales/te.json';
+import en from './locales/en.json';
+import hi from './locales/hi.json';
+import ta from './locales/ta.json';
+import kn from './locales/kn.json';
+import ml from './locales/ml.json';
+import mr from './locales/mr.json';
+import bn from './locales/bn.json';
+import gu from './locales/gu.json';
+import pa from './locales/pa.json';
+import or from './locales/or.json';
+import ur from './locales/ur.json';
+export const ui={te,en,hi,ta,kn,ml,mr,bn,gu,pa,or,ur};
+const selected=resolveLanguage(localStorage.getItem('language')??'te');
+i18n.use(initReactI18next).init({resources:Object.fromEntries(Object.entries(ui).map(([key,value])=>[key,{translation:value}])),lng:selected.code,fallbackLng:'en',interpolation:{escapeValue:false}});
+export default i18n;

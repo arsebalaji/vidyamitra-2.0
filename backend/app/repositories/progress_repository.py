@@ -1,0 +1,2 @@
+from app.services.progress_service import remote_progress
+get_progress=remote_progress

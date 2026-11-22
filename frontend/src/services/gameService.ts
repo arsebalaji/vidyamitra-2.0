@@ -1,0 +1,1 @@
+import {gameRegistry} from '../games/core/GameRegistry';export function availableGames(){return gameRegistry.filter(g=>g.route!==null)}export function getGame(id:string){return gameRegistry.find(g=>g.id===id)}

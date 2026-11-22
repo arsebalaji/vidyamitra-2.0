@@ -1,0 +1,1 @@
+export default function GameFeedback({message}:{message:string}){return <p className="game-feedback" role="status">{message}</p>}

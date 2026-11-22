@@ -21,6 +21,60 @@
         }
       }
     },
+    "/api/v1/states": {
+      "get": {
+        "summary": "States",
+        "operationId": "states_api_v1_states_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/boards": {
+      "get": {
+        "summary": "Boards",
+        "operationId": "boards_api_v1_boards_get",
+        "parameters": [
+          {
+            "name": "state_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "telangana",
+              "title": "State Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/v1/languages": {
       "get": {
         "summary": "Languages",
@@ -163,10 +217,10 @@
         }
       }
     },
-    "/api/v1/tutor/explain": {
+    "/api/v1/tutor/chat": {
       "post": {
-        "summary": "Explain",
-        "operationId": "explain_api_v1_tutor_explain_post",
+        "summary": "Chat",
+        "operationId": "chat_api_v1_tutor_chat_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -199,10 +253,10 @@
         }
       }
     },
-    "/api/v1/tutor/chat": {
+    "/api/v1/tutor/explain": {
       "post": {
-        "summary": "Chat",
-        "operationId": "chat_api_v1_tutor_chat_post",
+        "summary": "Explain",
+        "operationId": "explain_api_v1_tutor_explain_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -270,6 +324,70 @@
           }
         }
       }
+    },
+    "/api/v1/games": {
+      "get": {
+        "summary": "Catalog",
+        "operationId": "catalog_api_v1_games_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/missions": {
+      "get": {
+        "summary": "Catalog",
+        "operationId": "catalog_api_v1_missions_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/rewards": {
+      "get": {
+        "summary": "Catalog",
+        "operationId": "catalog_api_v1_rewards_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/revision": {
+      "get": {
+        "summary": "Catalog",
+        "operationId": "catalog_api_v1_revision_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -290,7 +408,17 @@
             "type": "string",
             "enum": [
               "te",
-              "en"
+              "en",
+              "hi",
+              "ta",
+              "kn",
+              "ml",
+              "mr",
+              "bn",
+              "gu",
+              "pa",
+              "or",
+              "ur"
             ],
             "title": "Language",
             "default": "te"
@@ -355,7 +483,17 @@
             "type": "string",
             "enum": [
               "te",
-              "en"
+              "en",
+              "hi",
+              "ta",
+              "kn",
+              "ml",
+              "mr",
+              "bn",
+              "gu",
+              "pa",
+              "or",
+              "ur"
             ],
             "title": "Language",
             "default": "te"

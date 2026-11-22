@@ -1,6 +1,14 @@
+> Latest visual refresh: bright blue, teal, purple and yellow adventure theme. Open VidyaMitra.code-workspace in VS Code. See docs/ADVENTURE_REFRESH.md and docs/GAME_DESIGN.md for new routes and planned modules.
+
+> Updated language support: 12 selectable languages; Hindi lesson preview and nine interface previews with English lesson fallback. See [language support]( docs/LANGUAGE_SUPPORT.md ). This supersedes earlier descriptions of disabled language options.
+
 # VidyaMitra AI 4.0
 
 A connected, offline-first Telugu mathematics learning MVP: React + Vite + TypeScript frontend and Python/FastAPI + SQLite backend in this repository. No student account or API key is needed for the core learning experience.
+
+The project now follows the supplied folder structure, with all **335 newly requested file/directory entries** present. The visual refresh adds illustrated lesson cards and a redesigned fraction playground. See [full folder listing](docs/FOLDER_STRUCTURE.txt), [project contract](docs/PROJECT_CONTRACT.md), and [feature status](docs/FEATURE_STATUS.md) to distinguish active features from reusable extensions and disabled future services.
+
+Quick Windows setup from this folder: run `scripts/setup.ps1`, then `scripts/dev.ps1`. Use `scripts/test.ps1` and `scripts/build.ps1` for verification. `scripts/verify-structure.py` checks every requested path.
 
 ## Run on Windows
 
@@ -39,12 +47,12 @@ Open http://127.0.0.1:4173, wait for **Offline app ready** in Offline library, t
 ## Included
 
 - Responsive dashboard, onboarding, language selection and shared-phone profiles.
-- Eight original bilingual lessons covering the Rational Numbers chapter, with 32 graded exercises.
+- Eight original lessons with Telugu, English and draft Hindi content covering the Rational Numbers chapter, with 32 graded exercises.
 - Step-by-step reader, resume position, completion tracking, exact fraction checking and adaptive practice.
 - Named offline lesson copies, app-shell caching, local progress, local guardian view, earned achievements, JSON export and per-learner deletion.
 - Deterministic lesson tutor (clearly labeled), optional server-side Gemini text/photo adapter, consent controls, browser-dependent speech input and playback.
 - Fraction number-line visualizer and fraction equivalence game, both independent of a server.
-- Curriculum catalog with the other chapters explicitly unavailable; ten additional language packs disabled pending review. Urdu direction metadata and RTL language-card display are included; a full Urdu interface is not claimed.
+- Curriculum catalog with the other chapters explicitly unavailable; ten additional selectable language previews. Urdu supports RTL layout. See docs/LANGUAGE_SUPPORT.md for exact coverage.
 
 ## Optional Gemini
 
@@ -71,10 +79,13 @@ frontend/src/       React screens, styles, i18next, Dexie, API adapter, adaptive
 frontend/public/    Original Mitra mascot and PWA icons
 backend/app/        FastAPI contracts, SQLAlchemy content, optional Gemini adapter
 backend/tests/      API and security behavior tests
-shared/content.json  One canonical bilingual lesson and question bank
+shared/curriculum/   Canonical manifest, bilingual lessons and questions
+shared/content.json  Compatibility export of the original pack
 shared/types.ts      Frontend content and API TypeScript types
 shared/openapi.json  Backend-generated API contract (after validation)
 docs/              Curriculum provenance, architecture, deployment and demo
+scripts/           PowerShell setup, development, test and build commands
+.github/workflows/  Frontend and backend CI
 ```
 
 See [architecture](docs/ARCHITECTURE.md), [curriculum references](docs/CURRICULUM.md), [deployment](docs/DEPLOYMENT.md), [demo walkthrough](docs/DEMO.md), and [limitations](docs/LIMITATIONS.md).

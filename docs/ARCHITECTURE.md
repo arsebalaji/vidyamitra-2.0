@@ -1,6 +1,8 @@
 # Architecture and data contracts
 
-`shared/content.json` is the canonical versioned content pack. Vite bundles it into the offline application. FastAPI seeds the same lesson objects into SQLite on startup. Exercise checking uses the same authored answers. Frontend API calls have a 20-second deadline; deterministic learning falls back to the bundled pack. Optional online AI never silently becomes a purported generated response.
+The canonical pack is under `shared/curriculum/telangana/class-8/mathematics/te/`: `manifest.json`, `lessons.json` and `questions.json`. Vite bundles these into the offline application. FastAPI loads the same files and seeds the lesson objects into SQLite on startup. `shared/content.json` is retained as a compatibility export. Exercise checking uses the same authored answers. Frontend API calls have a 20-second deadline; deterministic learning falls back to the bundled pack. Optional online AI never silently becomes a purported generated response.
+
+The frontend entry is `src/app/App.tsx`, routes are in `src/app/router.tsx`, and each screen has a `src/pages` module. Reusable components, services, local database repositories, hooks, stores and locales follow the supplied tree. FastAPI's `app/main.py` assembles `api/router.py`, security middleware and lifecycle; business logic lives under services and repositories. Only public lesson content is SQL-persisted. Other domain models are typed records, not hidden learner tables.
 
 React Router provides all 18 requested screen areas. The dashboard is the default route, with onboarding at `/welcome`. All learning pages use the active learner context. UI and instructional strings are Telugu/English; other language options stay disabled. New chapters can be added to the pack without redesigning the reader, quiz or progress views.
 

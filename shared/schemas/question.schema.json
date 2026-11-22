@@ -1,0 +1,52 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "lessonId": {
+      "title": "Lessonid",
+      "type": "string"
+    },
+    "level": {
+      "title": "Level",
+      "type": "integer"
+    },
+    "prompt": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Prompt",
+      "type": "object"
+    },
+    "answer": {
+      "title": "Answer",
+      "type": "string"
+    },
+    "hint": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Hint",
+      "type": "object"
+    },
+    "explanation": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Explanation",
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "lessonId",
+    "level",
+    "prompt",
+    "answer",
+    "hint",
+    "explanation"
+  ],
+  "title": "Question",
+  "type": "object"
+}

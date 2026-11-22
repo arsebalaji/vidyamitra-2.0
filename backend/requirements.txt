@@ -7,3 +7,4 @@ python-multipart>=0.0.20,<1
 pytest>=8,<9
 Pillow>=11,<13
 python-dotenv>=1,<2
+alembic>=1.14,<2

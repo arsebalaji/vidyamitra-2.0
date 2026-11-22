@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Title",
+      "type": "object"
+    },
+    "lesson_id": {
+      "title": "Lesson Id",
+      "type": "string"
+    },
+    "order": {
+      "title": "Order",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "lesson_id",
+    "order"
+  ],
+  "title": "Mission",
+  "type": "object"
+}

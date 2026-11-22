@@ -1,0 +1,1 @@
+export default function TutorSuggestions({items,onSelect}:{items:string[];onSelect:(value:string)=>void}){return <div className="feature-pills">{items.map(item=><button key={item} onClick={()=>onSelect(item)}>{item}</button>)}</div>}

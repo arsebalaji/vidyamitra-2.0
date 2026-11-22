@@ -1,0 +1,7 @@
+{
+  "id": "ts-8-math-rational-hi",
+  "language": "hi",
+  "status": "translation_preview",
+  "sourcePack": "../te/manifest.json",
+  "notes": "Hindi fields are stored with the canonical multilingual lesson objects. Independent educator review is pending."
+}

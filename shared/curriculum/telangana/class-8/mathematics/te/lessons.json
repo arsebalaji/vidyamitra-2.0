@@ -1,0 +1,442 @@
+[
+  {
+    "id": "meaning",
+    "title": {
+      "te": "అకరణీయ సంఖ్యలను తెలుసుకుందాం",
+      "en": "Meet rational numbers",
+      "hi": "परिमेय संख्याओं से परिचय"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "భాగాన్ని సంఖ్యగా రాయడం",
+          "en": "A part becomes a number",
+          "hi": "हिस्से को संख्या में लिखें"
+        },
+        "body": {
+          "te": "ఒక రొట్టెను 4 సమాన భాగాలుగా చేసి, 3 భాగాలు తీసుకుంటే అది 3/4. పై సంఖ్య లవం; కింది సంఖ్య హారం.",
+          "en": "Cut a roti into 4 equal parts. Taking 3 parts gives 3/4. The top number is the numerator; the bottom is the denominator.",
+          "hi": "एक रोटी को 4 बराबर भागों में बाँटें। उनमें से 3 भाग लेने पर 3/4 मिलता है। ऊपर की संख्या अंश और नीचे की संख्या हर है।"
+        },
+        "example": "3 ÷ 4 = 3/4"
+      },
+      {
+        "title": {
+          "te": "అకరణీయ సంఖ్య అంటే?",
+          "en": "What is a rational number?",
+          "hi": "परिमेय संख्या क्या है?"
+        },
+        "body": {
+          "te": "p, q పూర్ణసంఖ్యలు, q సున్నా కానప్పుడు p/q రూపంలో రాయగల సంఖ్య అకరణీయ సంఖ్య. ఋణ సంఖ్యలు, సున్నా కూడా ఇందులో ఉంటాయి.",
+          "en": "A rational number can be written as p/q, where p and q are integers and q is not zero. Negative numbers and zero are included.",
+          "hi": "जिस संख्या को p/q के रूप में लिख सकते हैं, जहाँ p और q पूर्णांक हैं और q शून्य नहीं है, वह परिमेय संख्या है। ऋणात्मक संख्याएँ और शून्य भी इसमें आते हैं।"
+        },
+        "example": "-3/5, 0/1, 7/1"
+      },
+      {
+        "title": {
+          "te": "హారం సున్నా ఎందుకు కాదు?",
+          "en": "Why not a zero denominator?",
+          "hi": "हर शून्य क्यों नहीं हो सकता?"
+        },
+        "body": {
+          "te": "సున్నాతో భాగించడం నిర్వచించబడలేదు. 5/0 ఒక అకరణీయ సంఖ్య కాదు. కానీ 0/5 = 0 చెల్లుతుంది.",
+          "en": "Division by zero is undefined. 5/0 is not a rational number, but 0/5 = 0 is valid.",
+          "hi": "शून्य से भाग परिभाषित नहीं है। 5/0 परिमेय संख्या नहीं है, लेकिन 0/5 = 0 सही है।"
+        },
+        "example": "0/5 = 0; 5/0 ✕"
+      }
+    ],
+    "summary": {
+      "te": "హారం సున్నా కాకూడదు. ప్రతి పూర్ణసంఖ్యను n/1 గా రాయవచ్చు.",
+      "en": "The denominator cannot be zero. Every integer n can be written as n/1.",
+      "hi": "हर शून्य नहीं हो सकता। हर पूर्णांक n को n/1 के रूप में लिख सकते हैं।"
+    }
+  },
+  {
+    "id": "standard",
+    "title": {
+      "te": "సమాన భిన్నాలు, ప్రామాణిక రూపం",
+      "en": "Equivalent fractions & standard form",
+      "hi": "तुल्य भिन्न और मानक रूप"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "విలువ మారదు",
+          "en": "The value stays the same",
+          "hi": "मान वही रहता है"
+        },
+        "body": {
+          "te": "లవాన్ని, హారాన్ని ఒకే సున్నా కాని సంఖ్యతో గుణించినా లేదా భాగించినా భిన్నం విలువ మారదు.",
+          "en": "Multiplying or dividing numerator and denominator by the same nonzero number keeps the value unchanged.",
+          "hi": "अंश और हर को एक ही अशून्य संख्या से गुणा या भाग देने पर भिन्न का मान नहीं बदलता।"
+        },
+        "example": "2/3 = 4/6 = 6/9"
+      },
+      {
+        "title": {
+          "te": "సరళీకరించండి",
+          "en": "Simplify",
+          "hi": "सरल कीजिए"
+        },
+        "body": {
+          "te": "లవం, హారాన్ని వాటి గరిష్ఠ సామాన్య భాజకంతో భాగించండి. హారం ధన సంఖ్యగా ఉండేలా రాయండి.",
+          "en": "Divide numerator and denominator by their greatest common divisor. Keep the denominator positive.",
+          "hi": "अंश और हर को उनके महत्तम समापवर्तक से भाग दें। हर को धनात्मक रखें।"
+        },
+        "example": "-12/18 = (-12 ÷ 6)/(18 ÷ 6) = -2/3"
+      },
+      {
+        "title": {
+          "te": "ఋణ చిహ్నం",
+          "en": "The negative sign",
+          "hi": "ऋण चिह्न"
+        },
+        "body": {
+          "te": "హారంలో ఋణ చిహ్నం ఉంటే దాన్ని లవానికి మార్చండి. రెండు ఋణ చిహ్నాలు ధన చిహ్నంగా మారతాయి.",
+          "en": "Move a negative denominator sign to the numerator. Two negative signs give a positive fraction.",
+          "hi": "हर में ऋण चिह्न हो तो उसे अंश में ले जाएँ। अंश और हर दोनों ऋणात्मक हों तो भिन्न धनात्मक होता है।"
+        },
+        "example": "3/(-7) = -3/7; (-3)/(-7) = 3/7"
+      }
+    ],
+    "summary": {
+      "te": "ప్రామాణిక రూపంలో హారం ధన సంఖ్య; లవం, హారానికి 1 తప్ప సామాన్య భాజకం ఉండదు.",
+      "en": "Standard form has a positive denominator and coprime numerator and denominator.",
+      "hi": "मानक रूप में हर धनात्मक होता है और अंश व हर का उभयनिष्ठ गुणनखंड केवल 1 होता है।"
+    }
+  },
+  {
+    "id": "numberline",
+    "title": {
+      "te": "సంఖ్యారేఖ, సంఖ్యల పోలిక",
+      "en": "Number line & comparison",
+      "hi": "संख्या रेखा और तुलना"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "సమాన దూరాలు",
+          "en": "Equal intervals",
+          "hi": "बराबर अंतराल"
+        },
+        "body": {
+          "te": "0, 1 మధ్య దూరాన్ని 4 సమాన భాగాలుగా విభజించండి. 0 నుంచి కుడికి మూడవ గుర్తు 3/4.",
+          "en": "Divide the distance from 0 to 1 into 4 equal intervals. The third mark to the right of 0 is 3/4.",
+          "hi": "0 से 1 की दूरी को 4 बराबर हिस्सों में बाँटें। 0 से दाईं ओर तीसरा निशान 3/4 है।"
+        },
+        "example": "0 — 1/4 — 2/4 — 3/4 — 1"
+      },
+      {
+        "title": {
+          "te": "ఋణ సంఖ్యలు",
+          "en": "Negative numbers",
+          "hi": "ऋणात्मक संख्याएँ"
+        },
+        "body": {
+          "te": "ఋణ సంఖ్యలు సున్నాకు ఎడమవైపు ఉంటాయి. కుడివైపు ఉన్న సంఖ్య పెద్దది. అందువల్ల -1/4 అనేది -3/4 కంటే పెద్దది.",
+          "en": "Negative numbers lie left of zero. A number farther right is greater, so -1/4 is greater than -3/4.",
+          "hi": "ऋणात्मक संख्याएँ शून्य के बाईं ओर होती हैं। दाईं ओर की संख्या बड़ी होती है, इसलिए -1/4, -3/4 से बड़ा है।"
+        },
+        "example": "-3/4 < -1/4 < 0"
+      },
+      {
+        "title": {
+          "te": "ఒకే హారంతో పోల్చండి",
+          "en": "Compare with equal denominators",
+          "hi": "समान हर से तुलना"
+        },
+        "body": {
+          "te": "మొదట హారాలను సమానం చేయండి. అప్పుడు లవాలను పోల్చండి. హారాలు ధన సంఖ్యలుగా ఉండాలి.",
+          "en": "First make the positive denominators equal. Then compare numerators.",
+          "hi": "पहले धनात्मक हरों को समान करें। फिर अंशों की तुलना करें।"
+        },
+        "example": "2/3 = 8/12; 3/4 = 9/12; 2/3 < 3/4"
+      }
+    ],
+    "summary": {
+      "te": "సంఖ్యారేఖపై కుడివైపు ఉన్న సంఖ్య పెద్దది.",
+      "en": "On a number line, the number farther right is greater.",
+      "hi": "संख्या रेखा पर दाईं ओर की संख्या बड़ी होती है।"
+    }
+  },
+  {
+    "id": "addition",
+    "title": {
+      "te": "కూడిక, తీసివేత",
+      "en": "Addition & subtraction",
+      "hi": "जोड़ और घटाव"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "ఒకే హారం",
+          "en": "Same denominator",
+          "hi": "समान हर"
+        },
+        "body": {
+          "te": "హారాలు సమానంగా ఉంటే లవాలను కలపండి. హారాన్ని అలాగే ఉంచండి.",
+          "en": "When denominators are equal, add the numerators and keep the denominator.",
+          "hi": "जब हर समान हों, अंशों को जोड़ें और हर वही रखें।"
+        },
+        "example": "2/7 + 3/7 = (2 + 3)/7 = 5/7"
+      },
+      {
+        "title": {
+          "te": "వేర్వేరు హారాలు",
+          "en": "Different denominators",
+          "hi": "अलग-अलग हर"
+        },
+        "body": {
+          "te": "సామాన్య హారం కోసం హారాల క.సా.గు. తీసుకోండి. సమాన భిన్నాలుగా మార్చి లవాలను కలపండి.",
+          "en": "Use the least common multiple as the common denominator. Rewrite equivalent fractions, then add the numerators.",
+          "hi": "समान हर पाने के लिए हरों का लघुत्तम समापवर्त्य लें। तुल्य भिन्न लिखें और फिर अंश जोड़ें।"
+        },
+        "example": "1/3 + 1/4 = 4/12 + 3/12 = 7/12"
+      },
+      {
+        "title": {
+          "te": "తీసివేత",
+          "en": "Subtraction",
+          "hi": "घटाव"
+        },
+        "body": {
+          "te": "తీసివేతను వ్యతిరేక సంఖ్య కూడికగా రాయవచ్చు. సమాన హారాలకు మార్చడం మర్చిపోవద్దు.",
+          "en": "Subtracting is adding the opposite. Remember to use equal denominators.",
+          "hi": "किसी संख्या को घटाना उसके विपरीत को जोड़ने के बराबर है। समान हर लेना न भूलें।"
+        },
+        "example": "1/2 - 3/4 = 2/4 - 3/4 = -1/4"
+      }
+    ],
+    "summary": {
+      "te": "లవాలను మాత్రమే కలపాలి; హారాలను కలపకూడదు.",
+      "en": "Add numerators after finding a common denominator; never add denominators.",
+      "hi": "हर समान करने के बाद अंश जोड़ें। हरों को कभी न जोड़ें।"
+    }
+  },
+  {
+    "id": "multiply",
+    "title": {
+      "te": "గుణకారం, భాగహారం",
+      "en": "Multiplication & division",
+      "hi": "गुणा और भाग"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "భాగంలో భాగం",
+          "en": "A part of a part",
+          "hi": "हिस्से का हिस्सा"
+        },
+        "body": {
+          "te": "లవాలను గుణించండి. హారాలను గుణించండి. చివరగా సరళీకరించండి.",
+          "en": "Multiply the numerators and multiply the denominators, then simplify.",
+          "hi": "अंशों को आपस में और हरों को आपस में गुणा करें। फिर सरल करें।"
+        },
+        "example": "2/3 × 3/5 = 6/15 = 2/5"
+      },
+      {
+        "title": {
+          "te": "విలోమం",
+          "en": "Reciprocal",
+          "hi": "व्युत्क्रम"
+        },
+        "body": {
+          "te": "సున్నా కాని భిన్నం విలోమం కోసం లవం, హారం స్థానాలను మార్చండి. వాటి లబ్ధం 1. సున్నాకు విలోమం లేదు.",
+          "en": "Swap numerator and denominator to get the reciprocal of a nonzero fraction. Their product is 1. Zero has no reciprocal.",
+          "hi": "अशून्य भिन्न का व्युत्क्रम पाने के लिए अंश और हर की जगह बदलें। उनका गुणनफल 1 होता है। शून्य का व्युत्क्रम नहीं होता।"
+        },
+        "example": "3/7 × 7/3 = 1"
+      },
+      {
+        "title": {
+          "te": "భాగహారం",
+          "en": "Division",
+          "hi": "भाग"
+        },
+        "body": {
+          "te": "ఒక భిన్నంతో భాగించాలంటే దాని విలోమంతో గుణించండి. సున్నాతో భాగించకూడదు.",
+          "en": "To divide by a fraction, multiply by its reciprocal. Never divide by zero.",
+          "hi": "किसी भिन्न से भाग देने के लिए उसके व्युत्क्रम से गुणा करें। शून्य से कभी भाग न दें।"
+        },
+        "example": "2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6"
+      }
+    ],
+    "summary": {
+      "te": "భాగహారంలో రెండవ భిన్నాన్ని మాత్రమే తిరగవేయండి.",
+      "en": "In division, invert only the second fraction.",
+      "hi": "भिन्नों के भाग में केवल दूसरे भिन्न को उलटकर गुणा करें।"
+    }
+  },
+  {
+    "id": "properties",
+    "title": {
+      "te": "సంఖ్యల ధర్మాలు",
+      "en": "Properties of rational numbers",
+      "hi": "परिमेय संख्याओं के गुण"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "సంవృత ధర్మం",
+          "en": "Closure",
+          "hi": "संवृतता"
+        },
+        "body": {
+          "te": "రెండు అకరణీయ సంఖ్యల కూడిక, తీసివేత, గుణకార ఫలితాలు అకరణీయ సంఖ్యలే. భాగహారంలో భాజకం సున్నా కాకూడదు.",
+          "en": "Rational numbers are closed under addition, subtraction and multiplication. Division is allowed only with a nonzero divisor.",
+          "hi": "परिमेय संख्याओं को जोड़ने, घटाने और गुणा करने पर परिमेय संख्याएँ ही मिलती हैं। भाग में भाजक शून्य नहीं होना चाहिए।"
+        },
+        "example": "1/2 + 1/3 = 5/6"
+      },
+      {
+        "title": {
+          "te": "క్రమం, సమూహం",
+          "en": "Order and grouping",
+          "hi": "क्रम और समूह"
+        },
+        "body": {
+          "te": "కూడిక, గుణకారంలో క్రమం లేదా సమూహం మార్చినా ఫలితం మారదు. తీసివేత, భాగహారానికి ఇది వర్తించదు.",
+          "en": "Addition and multiplication are commutative and associative. Subtraction and division are not.",
+          "hi": "जोड़ और गुणा क्रमविनिमेय तथा साहचर्य होते हैं। घटाव और भाग में ये गुण नहीं होते।"
+        },
+        "example": "1/2 + 1/3 = 1/3 + 1/2; (1/2 × 2/3) × 3/4 = 1/2 × (2/3 × 3/4)"
+      },
+      {
+        "title": {
+          "te": "విభాజక ధర్మం",
+          "en": "Distributive property",
+          "hi": "वितरण गुण"
+        },
+        "body": {
+          "te": "ఒక సంఖ్యను మొత్తంతో గుణించడం, ప్రతి పదంతో గుణించి కలపడంతో సమానం. తీసివేతకూ ఈ ధర్మం వర్తిస్తుంది.",
+          "en": "Multiplication distributes over addition and subtraction.",
+          "hi": "गुणा, जोड़ और घटाव पर वितरित होता है। योग से गुणा करना, हर पद से अलग-अलग गुणा करके जोड़ने के बराबर है।"
+        },
+        "example": "2/3 × (1/4 + 3/4) = 2/3 × 1/4 + 2/3 × 3/4 = 2/3"
+      }
+    ],
+    "summary": {
+      "te": "కూడిక, గుణకారంలో క్రమం మార్చవచ్చు; తీసివేత, భాగహారంలో కాదు.",
+      "en": "Order can change in addition and multiplication, but not subtraction and division.",
+      "hi": "जोड़ और गुणा में क्रम बदल सकते हैं, लेकिन घटाव और भाग में नहीं।"
+    }
+  },
+  {
+    "id": "identity",
+    "title": {
+      "te": "తత్సమాలు, విలోమాలు",
+      "en": "Identities & inverses",
+      "hi": "तत्समक और प्रतिलोम"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "కూడిక తత్సమం",
+          "en": "Additive identity",
+          "hi": "योज्य तत्समक"
+        },
+        "body": {
+          "te": "ఏ సంఖ్యకు సున్నా కలిపినా అదే సంఖ్య వస్తుంది. అందుకే కూడిక తత్సమం 0.",
+          "en": "Adding zero leaves any number unchanged. Zero is the additive identity.",
+          "hi": "किसी संख्या में शून्य जोड़ने पर वही संख्या मिलती है। इसलिए शून्य योज्य तत्समक है।"
+        },
+        "example": "-2/5 + 0 = -2/5"
+      },
+      {
+        "title": {
+          "te": "కూడిక విలోమం",
+          "en": "Additive inverse",
+          "hi": "योज्य प्रतिलोम"
+        },
+        "body": {
+          "te": "ఒక సంఖ్యకు దాని వ్యతిరేక సంఖ్యను కలిపితే సున్నా వస్తుంది.",
+          "en": "A number and its opposite add to zero.",
+          "hi": "किसी संख्या में उसकी विपरीत संख्या जोड़ने पर शून्य मिलता है।"
+        },
+        "example": "-2/5 + 2/5 = 0"
+      },
+      {
+        "title": {
+          "te": "గుణకార తత్సమం, విలోమం",
+          "en": "Multiplicative identity and inverse",
+          "hi": "गुणात्मक तत्समक और प्रतिलोम"
+        },
+        "body": {
+          "te": "1 తో గుణిస్తే సంఖ్య మారదు. సున్నా కాని సంఖ్యకు దాని విలోమంతో లబ్ధం 1 వస్తుంది.",
+          "en": "Multiplying by 1 leaves a number unchanged. A nonzero number times its reciprocal equals 1.",
+          "hi": "1 से गुणा करने पर संख्या नहीं बदलती। अशून्य संख्या का अपने व्युत्क्रम से गुणनफल 1 होता है।"
+        },
+        "example": "4/9 × 1 = 4/9; 4/9 × 9/4 = 1"
+      }
+    ],
+    "summary": {
+      "te": "కూడిక తత్సమం 0; గుణకార తత్సమం 1.",
+      "en": "The additive identity is 0; the multiplicative identity is 1.",
+      "hi": "जोड़ का तत्समक 0 है और गुणा का तत्समक 1 है।"
+    }
+  },
+  {
+    "id": "between",
+    "title": {
+      "te": "రెండు సంఖ్యల మధ్య సంఖ్యలు",
+      "en": "Numbers between rational numbers",
+      "hi": "दो परिमेय संख्याओं के बीच संख्याएँ"
+    },
+    "minutes": 6,
+    "steps": [
+      {
+        "title": {
+          "te": "మధ్య సంఖ్య",
+          "en": "Find a middle number",
+          "hi": "बीच की संख्या खोजें"
+        },
+        "body": {
+          "te": "రెండు వేర్వేరు అకరణీయ సంఖ్యలను కలిపి 2 తో భాగిస్తే వాటి మధ్య సంఖ్య వస్తుంది.",
+          "en": "Add two distinct rational numbers and divide by 2 to find a number between them.",
+          "hi": "दो अलग-अलग परिमेय संख्याओं को जोड़कर 2 से भाग दें। एक ऐसी संख्या मिलेगी जो उनके बीच है।"
+        },
+        "example": "(1/3 + 2/3) ÷ 2 = 1/2"
+      },
+      {
+        "title": {
+          "te": "మరిన్ని సంఖ్యలు",
+          "en": "Find more numbers",
+          "hi": "और संख्याएँ खोजें"
+        },
+        "body": {
+          "te": "హారాన్ని పెంచే సమాన భిన్నాలు రాయండి. మధ్యలోని లవాలను ఎంచుకోండి.",
+          "en": "Write equivalent fractions with a larger common denominator. Choose numerators between them.",
+          "hi": "बड़े समान हर वाले तुल्य भिन्न लिखें। उनके अंशों के बीच आने वाले अंश चुनें।"
+        },
+        "example": "1/3 = 4/12; 2/3 = 8/12; 5/12, 6/12, 7/12"
+      },
+      {
+        "title": {
+          "te": "అంతం లేదు",
+          "en": "There is no end",
+          "hi": "कोई अंत नहीं"
+        },
+        "body": {
+          "te": "మధ్య సంఖ్యను మళ్లీ మళ్లీ కనుగొనవచ్చు. అందుకే ఏ రెండు వేర్వేరు అకరణీయ సంఖ్యల మధ్యనైనా అనంతమైన అకరణీయ సంఖ్యలు ఉంటాయి.",
+          "en": "You can repeatedly find another midpoint. So there are infinitely many rational numbers between any two distinct rational numbers.",
+          "hi": "हर बार एक और मध्य संख्या खोजी जा सकती है। इसलिए किन्हीं दो अलग-अलग परिमेय संख्याओं के बीच अनंत परिमेय संख्याएँ होती हैं।"
+        },
+        "example": "1/3 < 5/12 < 1/2 < 7/12 < 2/3"
+      }
+    ],
+    "summary": {
+      "te": "మధ్య సంఖ్య కోసం మొత్తం యొక్క సగం తీసుకోండి.",
+      "en": "To find a number between two numbers, take half their sum.",
+      "hi": "दो संख्याओं के बीच की संख्या पाने के लिए उनके योग का आधा लें।"
+    }
+  }
+]

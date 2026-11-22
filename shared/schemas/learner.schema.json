@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "color": {
+      "title": "Color",
+      "type": "string"
+    },
+    "created": {
+      "title": "Created",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "color",
+    "created"
+  ],
+  "title": "Learner",
+  "type": "object"
+}

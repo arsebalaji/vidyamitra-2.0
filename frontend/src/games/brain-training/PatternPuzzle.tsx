@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function PatternPuzzle(){return <PlannedFeature title="Pattern puzzle"/>}

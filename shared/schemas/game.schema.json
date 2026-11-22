@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "category": {
+      "title": "Category",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "practice-preview",
+        "planned"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "route": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Route"
+    }
+  },
+  "required": [
+    "id",
+    "category",
+    "title",
+    "status"
+  ],
+  "title": "Game",
+  "type": "object"
+}

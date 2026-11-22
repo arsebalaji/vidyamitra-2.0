@@ -1,0 +1,1 @@
+import {useWords} from '../../app/providers';export default function Loading(){const t=useWords();return <p role="status" aria-live="polite">{t('loading')}</p>}

@@ -1,0 +1,2 @@
+class FeatureUnavailable(RuntimeError):
+    pass

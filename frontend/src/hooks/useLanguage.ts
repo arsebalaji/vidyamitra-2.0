@@ -1,0 +1,1 @@
+import {useTranslation} from 'react-i18next';import {resolveLanguage,type UILang} from '../i18n/languageRegistry';export function useLanguage(){const {i18n}=useTranslation();return {language:resolveLanguage(i18n.language).code,setLanguage:(language:UILang)=>{localStorage.setItem('language',language);return i18n.changeLanguage(language);}};}

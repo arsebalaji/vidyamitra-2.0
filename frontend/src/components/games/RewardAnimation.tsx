@@ -1,0 +1,1 @@
+export default function RewardAnimation({label}:{label:string}){return <span className="pill" role="status">★ {label}</span>}

@@ -1,0 +1,1 @@
+export default function ChatBubble({text,role}:{text:string;role:'user'|'assistant'}){return <div className={'chat-bubble '+role}><p>{text}</p></div>}

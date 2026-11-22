@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function PercentageMarket(){return <PlannedFeature title="Percentage market"/>}

@@ -1,0 +1,16 @@
+img,
+svg,
+video {
+  max-width: 100%;
+}
+.app-shell {
+  min-width: 0;
+}
+.workspace {
+  min-width: 0;
+}
+@media (max-width: 360px) {
+  .button-row {
+    flex-wrap: wrap;
+  }
+}

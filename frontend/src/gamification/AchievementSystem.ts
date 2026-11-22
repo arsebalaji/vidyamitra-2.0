@@ -1,0 +1,1 @@
+export { earnedBadges } from "./BadgeSystem";

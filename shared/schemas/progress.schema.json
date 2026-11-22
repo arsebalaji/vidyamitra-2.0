@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "profileId": {
+      "title": "Profileid",
+      "type": "string"
+    },
+    "questionId": {
+      "title": "Questionid",
+      "type": "string"
+    },
+    "lessonId": {
+      "title": "Lessonid",
+      "type": "string"
+    },
+    "correct": {
+      "title": "Correct",
+      "type": "boolean"
+    },
+    "hint": {
+      "default": false,
+      "title": "Hint",
+      "type": "boolean"
+    },
+    "at": {
+      "title": "At",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "profileId",
+    "questionId",
+    "lessonId",
+    "correct",
+    "at"
+  ],
+  "title": "Progress",
+  "type": "object"
+}

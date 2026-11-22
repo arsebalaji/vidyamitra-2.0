@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function StoryBuilder(){return <PlannedFeature title="Story builder"/>}

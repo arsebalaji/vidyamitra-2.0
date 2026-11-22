@@ -1,0 +1,1 @@
+import PlannedFeature from '../../components/ui/PlannedFeature';export default function MathMaze(){return <PlannedFeature title="Math maze"/>}

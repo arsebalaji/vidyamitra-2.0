@@ -1,0 +1,1 @@
+export default function GameHUD({correct,attempts}:{correct:number;attempts:number}){return <output aria-live="polite">✓ {correct} / {attempts}</output>}
